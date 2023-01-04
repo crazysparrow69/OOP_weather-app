@@ -4,7 +4,7 @@ export default class TodayCard extends Card {
     constructor(options) {
         super(options, options)
         this.location = options.location,
-        this.icon = options.location === 'Belgorod' ? '../img/weather/cotton.jpg' : options.condition.icon,
+        this.icon = options.location === 'Belgorod' ? 'img/weather/cotton.jpg' : options.condition.icon,
         this.humidity = options.humidity,
         this.pressure = options.pressure_mb,
         this.temp = Math.round(options.temp_c),

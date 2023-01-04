@@ -8,7 +8,7 @@ export default class ForecastCard extends Card {
         this.mintemp = Math.round(options.day.mintemp_c),
         this.maxtemp = Math.round(options.day.maxtemp_c),
         this.wind = options.day.maxwind_kph,
-        this.icon = options.location === 'Belgorod' ? '../img/weather/cotton.jpg' : options.day.condition.icon
+        this.icon = options.location === 'Belgorod' ? 'img/weather/cotton.jpg' : options.day.condition.icon
     }
 
     #getDate() { return this.date; }
