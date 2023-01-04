@@ -32,7 +32,7 @@ export const SingletonFactory = (function(){
         }
     
         changeBackground() {
-            document.body.style.backgroundImage = `url(/img/cities/${this.#getSelectedCity().toLowerCase()}.jpg`;
+            document.body.style.backgroundImage = `url(../img/cities/${this.#getSelectedCity().toLowerCase()}.jpg`;
             return this;
         }
     
