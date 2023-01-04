@@ -8,7 +8,7 @@ export default class ForecastCard extends Card {
         this.mintemp = Math.round(options.day.mintemp_c),
         this.maxtemp = Math.round(options.day.maxtemp_c),
         this.wind = options.day.maxwind_kph,
-        this.icon = options.location === 'Belgorod' ? '../img/weather/cotton.jpg' : options.day.condition.icon
+        this.icon = options.location === 'Belgorod' ? 'img/weather/cotton.jpg' : options.day.condition.icon
     }
 
     #getDate() { return this.date; }
@@ -20,7 +20,7 @@ export default class ForecastCard extends Card {
             <div class="card__row">
                 <div class="card__date">${this.#getDate()}</div>
                 <div class="card__img">
-                    <img src="${this.icon}" alt="">
+                    <img src="https://crazysparrow69.github.io/OOP_weather-app/${this.icon}" alt="Error">
                 </div>
                 <div class="card__minmax">
                     <div class="card__min">
