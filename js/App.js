@@ -3,7 +3,7 @@ import ForecastCard from './ForecastCard.js';
 
 export const SingletonFactory = (function(){
     class App {
-        #baseUrl = 'http://api.weatherapi.com/v1';
+        #baseUrl = 'https://api.weatherapi.com/v1';
         #reqType = '/forecast.json';
         #apikey = '20171a04458146ed8e6134808230301';
         #forecastDays = 5;
