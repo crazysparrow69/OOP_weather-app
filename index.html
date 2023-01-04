@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="weather">
+                <div class="container">
+                    <div class="sample">
+                        <select class="sample__select" name="select" id="sample__select">
+                          <option value="Belgorod">Бєлгород</option>
+                          <option value="Kiev">Київ</option>  
+                          <option value="London">Лондон</option> 
+                          <option value="Paris">Париж</option> 
+                          <option value="Tokyo">Токіо</option> 
+                          <option value="Toronto">Торонто</option> 
+                        </select>
+                        <button class="sample__button" id="sample__button">Дізнатись!</button>
+                    </div>
+                    <div class="weather__row" id="weather__row">
+                        <div class="weather__today today">
+                            <div class="today__title">
+                                <h1 class="today__city">Погода в ... зараз</h1>
+                                <h2 class="today__date">00:00</h2>
+                            </div>
+                            <div class="today__body">
+                                <div class="today__temp">0°C</div>
+                                <div class="today__img">
+                                    <img src="./img/weather/default.jpg" alt="Error">
+                                </div>
+                                <div class="today__minmax minmax">
+                                    <div class="minmax__row">
+                                        <div class="minmax__min">
+                                            <p>min</p>
+                                            <p>0°C</p>
+                                        </div>
+                                        <div class="minmax__max">
+                                            <p>max</p>
+                                            <p>0°C</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="today__indicators indicators">
+                                <div class="indicators__row">
+                                    <div class="indicators__card">
+                                        <p>Вітер</p>
+                                        <p>0.00 км/год</p>
+                                    </div>
+                                    <div class="indicators__card">
+                                        <p>Тиск</p>
+                                        <p>000 мм р.с.</p>
+                                    </div>
+                                    <div class="indicators__card">
+                                        <p>Вологість</p>
+                                        <p>00%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather__ahead card">
+                            <div class="card__row">
+                                <div class="card__date">00.00</div>
+                                <div class="card__img">
+                                    <img src="./img/weather/default.jpg" alt="">
+                                </div>
+                                <div class="card__minmax">
+                                    <div class="card__min">
+                                        <p>min</p>
+                                        <p>0°C</p>
+                                    </div>
+                                    <div class="card__max">
+                                        <p>max</p>
+                                        <p>0°C</p>
+                                    </div>
+                                </div>
+                                <div class="card__wind">
+                                    <p>0.00 км/год</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather__ahead card">
+                            <div class="card__row">
+                                <div class="card__date">00.00</div>
+                                <div class="card__img">
+                                    <img src="./img/weather/default.jpg" alt="">
+                                </div>
+                                <div class="card__minmax">
+                                    <div class="card__min">
+                                        <p>min</p>
+                                        <p>0°C</p>
+                                    </div>
+                                    <div class="card__max">
+                                        <p>max</p>
+                                        <p>0°C</p>
+                                    </div>
+                                </div>
+                                <div class="card__wind">
+                                    <p>0.00 км/год</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather__ahead card">
+                            <div class="card__row">
+                                <div class="card__date">00.00</div>
+                                <div class="card__img">
+                                    <img src="./img/weather/default.jpg" alt="">
+                                </div>
+                                <div class="card__minmax">
+                                    <div class="card__min">
+                                        <p>min</p>
+                                        <p>0°C</p>
+                                    </div>
+                                    <div class="card__max">
+                                        <p>max</p>
+                                        <p>0°C</p>
+                                    </div>
+                                </div>
+                                <div class="card__wind">
+                                    <p>0.00 км/год</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather__ahead card">
+                            <div class="card__row">
+                                <div class="card__date">00.00</div>
+                                <div class="card__img">
+                                    <img src="./img/weather/default.jpg" alt="">
+                                </div>
+                                <div class="card__minmax">
+                                    <div class="card__min">
+                                        <p>min</p>
+                                        <p>0°C</p>
+                                    </div>
+                                    <div class="card__max">
+                                        <p>max</p>
+                                        <p>0°C</p>
+                                    </div>
+                                </div>
+                                <div class="card__wind">
+                                    <p>0.00 км/год</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

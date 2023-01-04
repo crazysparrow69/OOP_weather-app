@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+  margin-top: 250px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+	margin: 0px auto;
+}
+
+.sample__select {
+  width: 100px;
+  height: 25px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.sample__button {
+  width: 100px;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.weather__row {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.weather__today {
+  border-radius: 6px;
+  padding: 10px;
+  width: 35%;
+  background-color: #007bff;
+  color: white;
+}
+
+.today__city {
+  font-size: 20px;
+}
+
+.today__date {
+  color: rgb(219, 219, 219);
+}
+
+.today__body {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.today__temp {
+  font-size: 30px;
+  padding-top: 15%;
+}
+
+.today__img img{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.minmax__row {
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.minmax__row p{
+  text-align: center;
+}
+
+.indicators__row {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.indicators__card {
+  padding: 2px;
+  padding-top: 5px;
+  height: 50px;
+  width: 32%;
+  background-color: #2f93ff;
+  border-radius: 4px;
+}
+
+.indicators__card p{
+  text-align: center;
+  padding: 2px;
+}
+
+.weather__ahead {
+  width: 16%;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.card {
+  background-color: #007bff;
+  color: white;
+}
+
+.card__date {
+  font-size: 20px;
+}
+
+.card__img {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card__img img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card__minmax {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__minmax p{
+  text-align: center;
+  font-size: 16px;
+}
+
+.card__wind {
+  margin-top: 18px;
+}
+
+.card__wind p{
+  text-align: center;
+  font-size: 20px;
+}
